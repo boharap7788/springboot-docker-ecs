@@ -17,9 +17,9 @@ public class SpringbootDockerAwsEcsApplication {
         return "Application is up and running !";
     }
 
-    @GetMapping("/{name}")
-    public String welcome(@PathVariable String name) {
-        return "Hi " + name + " Welcome to javatechie AWS ECS Example";
+    @GetMapping("/devops")
+    public String welcome() {
+        return "Hi " + " Welcome to springboot AWS ECS ";
     }
 
     public static void main(String[] args) {
